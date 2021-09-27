@@ -1,5 +1,11 @@
-max = int(input('geef het eerste hele getal '))
-min = int(input('geef het tweede hele getal '))
+a = int(input('geef het eerste hele getal '))
+b = int(input('geef het tweede hele getal '))
 
-if max > min:
-    print (" a is het grootste getal " +  str(max)  ) 
+if a > b:
+    max = a
+    print (" a is het grootste getal: " +  str(max)  ) 
+
+elif a < b:
+    min = a 
+    print ("a is het kleinste getal " + str(min) )
+    
