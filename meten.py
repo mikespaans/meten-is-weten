@@ -5,7 +5,7 @@ if a > b:
     max = a
     min = b
     print (" a is het grootste getal: " +  str(max)  ) 
-    print ("het minimum is " + str(min))
+    print (" het minimum is " + str(min))
     print (" het maximum is " + str(max))
 
 elif a < b:
@@ -19,4 +19,4 @@ else:
     max = a
     min = b
     print (" het minimum is " + str(min))
-    print ("het maximum is " + str(max))
+    print (" het maximum is " + str(max))
